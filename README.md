@@ -6,7 +6,7 @@ This document describes the rule and recommendations for developing software app
 
 As our primary language is C# we follow the list of existing guidelines setup by the C# community.
 
-**Purpose : **
+**Purpose:**
 
 Coding standards are a set of guidelines used for programming language that recommends programming style and best practices to achieve it.
  
