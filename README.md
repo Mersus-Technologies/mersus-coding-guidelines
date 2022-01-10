@@ -38,3 +38,37 @@ There are three type of naming conventions generally used while doing C# program
 
 **Hungarian Case Convention – The data type as prefix is used to define the variable by developers long ago. This convention is not used anywhere now a day’s except local variable declaration.**
 > Example:string m_sName; string strName; int iAge;
+
+We at Mersus use a combination of _Pascal and Camel Case_ each convention is supposed to be used during different scenarios.
+
+In the following examples, any of the guidance pertaining to elements marked public is also applicable when working with protected and protected internal elements, all of which are intended to be visible to external callers.
+
+# Pascal Case
+
+```
+public class DataService
+{
+}
+```
+
+```
+public record PhysicalAddress(
+    string Street,
+    string City,
+    string StateOrProvince,
+    string ZipCode);
+}
+```
+
+```
+public struct ValueCoordinate
+{
+}
+```
+When naming an **interface**, use pascal casing in addition to prefixing the name with an I. This clearly indicates to consumers that it's an **interface**.
+
+```
+public interface IWorkerQueue
+{
+}
+```
