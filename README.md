@@ -39,7 +39,7 @@ There are three type of naming conventions generally used while doing C# program
 **Hungarian Case Convention – The data type as prefix is used to define the variable by developers long ago. This convention is not used anywhere now a day’s except local variable declaration.**
 > Example:string m_sName; string strName; int iAge;
 
-We at Mersus use a both _Pascal and Camel Case_, each convention is supposed to be used in different scenarios.
+We at Mersus use both _Pascal and Camel Case_, each convention is supposed to be used in different scenarios.
 
 In the following examples, any of the guidance pertaining to elements marked public is also applicable when working with protected and protected internal elements, all of which are intended to be visible to external callers.
 
