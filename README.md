@@ -4,17 +4,22 @@
 > Email : suriya@mersus.ie <br>
 > In case of any issues with these guidelines please contact the author.
 
-
-
-<a href ="#camelCase">This</a> document describes the rule and recommendations for developing software application and class libraries in .NET using C# as a language. The main purpose is to define the general guidelines to enforce consistent coding styles and formatting that can be useful for developers to avoid common mistakes they do while development of software applications using C#. This document covers naming conventions, coding styles and some architecture level suggestions.
+This document describes the rule and recommendations for developing software application and class libraries in .NET using C# as a language. The main purpose is to define the general guidelines to enforce consistent coding styles and formatting that can be useful for developers to avoid common mistakes they do while development of software applications using C#. This document covers naming conventions, coding styles and some architecture level suggestions.
 
 **This document will serve as the _Mersus Coding Guidelines_, every developer should adhere to these standards and follow the set of rules laid down in these document.**
 
 As our primary language is C# we follow the list of existing guidelines setup by the C# community.
 
-**Purpose:**
+# Table of Contents
 
-Coding standards are a set of guidelines used for programming language that recommends programming style and best practices to achieve it.
+- <a href = "purpose"> Purpose </a>
+- <a href = "namingConventions"> Naming Conventions </a>
+- <a href = "pascalCase"> Pascal Case </a>
+- <a href = "camelCase"> Camel Case </a>
+
+# Purpose:
+
+<div id="purpose">Coding standards are a set of guidelines used for programming language that recommends programming style and best practices to achieve it.
  
 The coding standards generally covers indentation, comments, naming conventions, programming practices, file structure within project, architectural best practices etc. Software developers are highly recommended to follow these guidelines. The coding guidelines have following advantages.
 - Increases the readability of source code written.
@@ -23,12 +28,12 @@ The coding standards generally covers indentation, comments, naming conventions,
 - Easier for old and new developers to maintain and modify the code.
 - Leads to increase in productivity of developers.
 - Reduces the overall cost for software development.
-- Make the difference between a successful project and a project that is, at worst, dead on delivery.
+- Make the difference between a successful project and a project that is, at worst, dead on delivery. </div>
 
 
 # Naming Conventions
 
-There are three type of naming conventions generally used while doing C# programming, <br>
+<div id = "namingConventions">There are three type of naming conventions generally used while doing C# programming, <br>
 
 **Pascal Convention – First character of all word is in upper case and other characters are in lower case.** <br>
 > Example: HelloWorld <br>
@@ -41,9 +46,11 @@ There are three type of naming conventions generally used while doing C# program
 
 We at Mersus use both _Pascal and Camel Case_, each convention is supposed to be used in different scenarios.
 
-In the following examples, any of the guidance pertaining to elements marked public is also applicable when working with protected and protected internal elements, all of which are intended to be visible to external callers.
+In the following examples, any of the guidance pertaining to elements marked public is also applicable when working with protected and protected internal elements, all of which are intended to be visible to external callers. </div>
 
 # Pascal Case
+
+<div id = "pascalCase">Use pascal casing ("PascalCasing") when naming a class, record, or struct.
 
 ```
 public class DataService
@@ -96,12 +103,13 @@ public class ExampleEvents
     }
 }
 ```
+</div>
 
 # Camel Case
 
 <div id="camelCase">Use camel casing ("camelCasing") when naming **private** or **internal** fields, and prefix them with _.
 
-It is paramount that we mark every private variable with an 'underscore' because this practice helps you in searching through all the private variables in your scripts as well makes an explicit differentiation between **private** and **public** variables. </div>
+It is paramount that we mark every private variable with an 'underscore' because this practice helps you in searching through all the private variables in your scripts as well makes an explicit differentiation between **private** and **public** variables. 
 
 ```
 public class DataService
@@ -129,6 +137,6 @@ public T SomeMethod<T>(int someNumber, bool isValid)
 {
 }
 ```
-
+</div>
 
 
