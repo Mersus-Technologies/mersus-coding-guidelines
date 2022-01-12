@@ -152,7 +152,7 @@ IEnumerator CoStopPour()
 ```
 # Commenting Conventions
 
-<div id="#commenting">
+<div id="commenting">
  
 - Place the comment on a separate line, not at the end of a line of code.
 - Begin comment text with an uppercase letter.
