@@ -97,3 +97,38 @@ public class ExampleEvents
 }
 ```
 
+# Camel Case
+
+Use camel casing ("camelCasing") when naming **private** or **internal** fields, and prefix them with _.
+
+It is paramount that we mark every private variable with an 'underscore' because this practice helps you in searching through all the private variables in your scripts as well makes an explicit differentiation between **private** and **public** variables.
+
+```
+public class DataService
+{
+    private IWorkerQueue _workerQueue;
+}
+```
+When working with static fields that are private or internal, use the s_ prefix and for thread static use t_.
+Usually we don't use static threads in unity but in case of using it, it is good to follow the underlying notations.
+
+```
+public class DataService
+{
+    private static IWorkerQueue s_workerQueue;
+
+    [ThreadStatic]
+    private static TimeSpan t_timeSpan;
+}
+```
+
+When writing method parameters, use camel casing.
+
+```
+public T SomeMethod<T>(int someNumber, bool isValid)
+{
+}
+```
+
+
+
