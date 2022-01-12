@@ -17,6 +17,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#pascalCase"> Pascal Case </a>
 - <a href = "#camelCase"> Camel Case </a>
 - <a href = "#coroutine"> Coroutine Naming Convention </a>
+- <a href = "#commenting">Commenting Conventions</a>
 
 # Purpose:
 
@@ -148,5 +149,22 @@ IEnumerator CoStopPour()
 {
         yield return null;   
 }
+```
+# Commenting Conventions
+
+<div id="#commenting">
+ 
+- Place the comment on a separate line, not at the end of a line of code.
+- Begin comment text with an uppercase letter.
+- End comment text with a period.
+- Insert one space between the comment delimiter (//) and the comment text, as shown in the following example.
+- Don't create formatted blocks of asterisks around comments.
+- Ensure all public members have the necessary XML comments providing appropriate descriptions about their behavior.
+</div>
+
+```
+// The following declaration creates a query. It does not run
+// the query.
+
 ```
 
