@@ -97,11 +97,11 @@ public class ExampleEvents
 }
 ```
 
-# <div id="camelCase">Camel Case</div>
+# Camel Case
 
-Use camel casing ("camelCasing") when naming **private** or **internal** fields, and prefix them with _.
+<div id="camelCase">Use camel casing ("camelCasing") when naming **private** or **internal** fields, and prefix them with _.
 
-It is paramount that we mark every private variable with an 'underscore' because this practice helps you in searching through all the private variables in your scripts as well makes an explicit differentiation between **private** and **public** variables.
+It is paramount that we mark every private variable with an 'underscore' because this practice helps you in searching through all the private variables in your scripts as well makes an explicit differentiation between **private** and **public** variables. </div>
 
 ```
 public class DataService
