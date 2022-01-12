@@ -16,6 +16,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#namingConventions"> Naming Conventions </a>
 - <a href = "#pascalCase"> Pascal Case </a>
 - <a href = "#camelCase"> Camel Case </a>
+- <a href = "#coroutine"> Corouting Naming Convention </a>
 
 # Purpose:
 
@@ -137,6 +138,15 @@ public T SomeMethod<T>(int someNumber, bool isValid)
 {
 }
 ```
+<div id="coroutine"> </div>
+# Coroutine Naming Conventions
 
+Coroutine is something we constantly use, all coroutines need to be written with a suffix **Co**.
 
+```
+IEnumerator CoStopPour()
+{
+        yield return null;   
+}
+```
 
