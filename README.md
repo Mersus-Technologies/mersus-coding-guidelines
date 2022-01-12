@@ -138,10 +138,10 @@ public T SomeMethod<T>(int someNumber, bool isValid)
 {
 }
 ```
-<div id="coroutine"> </div>
+
 # Coroutine Naming Conventions
 
-Coroutine is something we constantly use, all coroutines need to be written with a suffix **Co**.
+<div id="coroutine"> Coroutine is something we constantly use, all coroutines need to be written with a suffix 'Co'. </div>
 
 ```
 IEnumerator CoStopPour()
