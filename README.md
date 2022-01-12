@@ -16,7 +16,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#namingConventions"> Naming Conventions </a>
 - <a href = "#pascalCase"> Pascal Case </a>
 - <a href = "#camelCase"> Camel Case </a>
-- <a href = "#coroutine"> Corouting Naming Convention </a>
+- <a href = "#coroutine"> Coroutine Naming Convention </a>
 
 # Purpose:
 
