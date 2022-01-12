@@ -12,10 +12,10 @@ As our primary language is C# we follow the list of existing guidelines setup by
 
 # Table of Contents
 
-- <a href = "purpose"> Purpose </a>
-- <a href = "namingConventions"> Naming Conventions </a>
-- <a href = "pascalCase"> Pascal Case </a>
-- <a href = "camelCase"> Camel Case </a>
+- <a href ="#purpose"> Purpose </a>
+- <a href = "#namingConventions"> Naming Conventions </a>
+- <a href = "#pascalCase"> Pascal Case </a>
+- <a href = "#camelCase"> Camel Case </a>
 
 # Purpose:
 
