@@ -21,6 +21,8 @@ As our primary language is C# we follow the list of existing guidelines setup by
 
 # Purpose:
 
+<body style="background-color:black;"> </body>
+
 <div id="purpose">Coding standards are a set of guidelines used for programming language that recommends programming style and best practices to achieve it. </div>
  
 The coding standards generally covers indentation, comments, naming conventions, programming practices, file structure within project, architectural best practices etc. Software developers are highly recommended to follow these guidelines. The coding guidelines have following advantages.
