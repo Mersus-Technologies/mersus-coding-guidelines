@@ -153,7 +153,7 @@ IEnumerator CoStopPour()
 ```
 # Commenting Conventions
 
-<div id="commenting"> Commenting is an essential aspect when you are writing scripts, this ensures quality and readability. A piece of comment should convey the reason, purpose and action.  </div>
+<div id="commenting"> Commenting is an essential aspect when you are writing scripts, this ensures quality and readability. A piece of comment should convey the reason, purpose and action.<br><br></div>
  
 - Place the comment on a separate line, not at the end of a line of code.
 - Begin comment text with an uppercase letter.
