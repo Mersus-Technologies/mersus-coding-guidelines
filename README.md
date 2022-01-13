@@ -153,7 +153,7 @@ IEnumerator CoStopPour()
 ```
 # Commenting Conventions
 
-<div id="commenting">
+<div id="commenting"> Commenting is an essential aspect when you are writing scripts, this ensures quality and readability. A piece of comment should convey the reason, purpose and action.  </div>
  
 - Place the comment on a separate line, not at the end of a line of code.
 - Begin comment text with an uppercase letter.
@@ -161,7 +161,7 @@ IEnumerator CoStopPour()
 - Insert one space between the comment delimiter (//) and the comment text, as shown in the following example.
 - Don't create formatted blocks of asterisks around comments.
 - Ensure all public members have the necessary XML comments providing appropriate descriptions about their behavior.
-</div>
+
 
 ```
 // The following declaration creates a query. It does not run
