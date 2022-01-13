@@ -21,7 +21,6 @@ As our primary language is C# we follow the list of existing guidelines setup by
 
 # Purpose:
 
-<body style="background-color:#333;font-color:#fafafa"> </body>
 
 <div id="purpose">Coding standards are a set of guidelines used for programming language that recommends programming style and best practices to achieve it. </div>
  
