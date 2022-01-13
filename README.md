@@ -18,6 +18,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#camelCase"> Camel Case </a>
 - <a href = "#coroutine"> Coroutine Naming Convention </a>
 - <a href = "#commenting">Commenting Conventions</a>
+- <a href = "#copyright">Copyright Setup</>
 
 # Purpose:
 
@@ -169,3 +170,24 @@ IEnumerator CoStopPour()
 
 ```
 
+# Copyright
+
+<div id="copyright">It is very important that every script written for Mersus Technologies should include the Mersus copyright header.</div>
+
+To set this up you will need to make some changes to your editor files. Navigate to this location and find 'NewBehaviourScript.cs' template file
+
+> Editor\Data\Resources\ScriptTemplates
+
+Paste the following code in the template script, which will auto write 'Mersus Copyright' everytime you create a new script.
+
+```
+/*
+ © 2021 Mersus Technologies, Ireland. All rights reserved. 
+
+ This software and associated documentation is owned solely by Mersus Technologies,
+ right to use, copy, modify, merge, publish and distribute, sublicense, and/or sell 
+ copies of the software, and to permit persons to whom the software is furnished to 
+ do so resides with Mersus Technologies.
+
+*/
+```
