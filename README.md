@@ -18,7 +18,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#camelCase"> Camel Case </a>
 - <a href = "#coroutine"> Coroutine Naming Convention </a>
 - <a href = "#commenting">Commenting Conventions</a>
-- <a href = "#copyright">Copyright Setup</>
+- <a href = "#copyright">Copyright Setup</a>
 
 # Purpose:
 
@@ -182,6 +182,7 @@ Paste the following code in the template script, which will auto write 'Mersus C
 
 ```
 /*
+
  © 2021 Mersus Technologies, Ireland. All rights reserved. 
 
  This software and associated documentation is owned solely by Mersus Technologies,
