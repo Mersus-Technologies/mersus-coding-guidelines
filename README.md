@@ -19,6 +19,7 @@ As our primary language is C# we follow the list of existing guidelines setup by
 - <a href = "#coroutine"> Coroutine Naming Convention </a>
 - <a href = "#commenting">Commenting Conventions</a>
 - <a href = "#copyright">Copyright Setup</a>
+- <a href = "#scriptFolderStructure">Scripts Folder Structure</a>
 
 # Purpose:
 
@@ -192,3 +193,18 @@ Paste the following code in the template script, which will auto write 'Mersus C
 
 */
 ```
+
+# Script Folder Structure
+
+<div id="scriptFolderStructure"> Uniform folder structure across projects is really important to eliminate confusion and make all the scripts easily accessible.</div>
+
+All Scripts should be stored inside...
+
+> Assets\Mersus\Scripts
+
+Inside the 'Scripts' folder you will have sub-folders indicating specific use case of those scripts. 
+
+- Managers: Every manager created in the project should be stored inside this project
+- Interaction Specific Folder: Every interaction is a system on its own, you should create an interaction specific folder i.e. 'KeyboardInteraction' and store all your scripts that you wrote to make this interaction functional.
+- Backend - All of your scripts, that send and receive data from an external server should be stored here.
+- Miscallaneous - All other scripts can be stored here.
