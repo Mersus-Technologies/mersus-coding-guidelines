@@ -207,4 +207,4 @@ Inside the 'Scripts' folder you will have sub-folders indicating specific use ca
 - Managers: Every manager created in the project should be stored inside this project
 - Interaction Specific Folder: Every interaction is a system on its own, you should create an interaction specific folder i.e. 'KeyboardInteraction' and store all your scripts that you wrote to make this interaction functional.
 - Backend - All of your scripts, that send and receive data from an external server should be stored here.
-- Miscallaneous - All other scripts can be stored here.
+- Miscellaneous - All other scripts can be stored here.
