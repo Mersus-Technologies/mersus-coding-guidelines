@@ -184,7 +184,7 @@ Paste the following code in the template script, which will auto write 'Mersus C
 ```
 /*
 
- © 2021 Mersus Technologies, Ireland. All rights reserved. 
+ © 2019 Mersus Technologies, Ireland. All rights reserved. 
 
  This software and associated documentation is owned solely by Mersus Technologies,
  right to use, copy, modify, merge, publish and distribute, sublicense, and/or sell 
