@@ -1,3 +1,9 @@
+> Author: Palak
+>
+> Email: palak@mersus.ie
+>
+> Version: 0.1
+
 # Responsiveness
 
 For the Avatar Academy Dashboard, Desktop first approach was followed. It means that the Wireframes and development started for the desktop view and then were handled for other resolutions.
@@ -18,13 +24,16 @@ Some ways to handle responsiveness:
 For the Avatar Academy Dashboard, the UI was made responsive using Angular flex.
 
 **NPM link**: [@angular/flex-layout - npm](https://www.npmjs.com/package/@angular/flex-layout)
+
 **Github link**: [GitHub - angular/flex-layout: Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API](https://github.com/angular/flex-layout)
 
 **Youtube tutorial:** 
 Part 1: [Create a responsive card grid in Angular with Flex Layout - Part 1](https://youtu.be/O460xQPYckE)
+
 Part 2: [Create a responsive card grid in Angular with Flex Layout - Part 2](https://youtu.be/C5ew4olWLGQ)
 
 **Tutorial:**
+
 [Angular Flex-Layout: The Alternative Layout Library for Flex-box and CSS Grid | by Duncan Faulkner | ngconf | Medium](https://medium.com/ngconf/angular-flex-layout-ddf1c8fad37e)
 
 [How To Use Flex Layout for Angular | DigitalOcean](https://www.digitalocean.com/community/tutorials/angular-flex-layout)
@@ -52,8 +61,11 @@ If needed, can specify for the particular resolution:
 
 For any further formatting required for an element for a particular resolution, configure a CSS class to manage that.
 
+```
 `class="card-config" //Default class`
+
 `[ngClass.lt-lg] ="'card-column'"  //Class for less than large res`
+```
 
 As far as I’ve experienced, flex can be configured for specific components as well. The next section contains a few elements that I came across:
 
@@ -83,13 +95,14 @@ Can find alternatives to mat-card if required but some predefined tags in HTML w
 The flex layout worked well for me to manage grids.
 `fxLayout="row wrap"`
 
-Row wrap turned out to be:
-Easier while dealing with responsiveness
-Requires less manual work for handling card grids for different resolutions as it can manage cards in rows and columns better as compared to other fxLayouts tried.
+- Row wrap turned out to be:
+
+- Easier while dealing with responsiveness
+- Requires less manual work for handling card grids for different resolutions as it can manage cards in rows and columns better as compared to other `fxLayouts` tried.
 
 ### Alternates
 
-Can find more layouts here - Angular Flex-Layout Demos
+Can find more layouts here - [Angular Flex-Layout Demos](https://tburleson-layouts-demos.firebaseapp.com/#/docs)
 
 ## Responsive spinner circle
 
@@ -99,17 +112,21 @@ Can find more layouts here - Angular Flex-Layout Demos
 
 **![img](https://lh3.googleusercontent.com/FEipoZcGZHKbLgbBXSKrQmPy_haGTdmXPqtl3fnLoWg2GVOQCEU_3Zynn_I9C-MqfC-UwqUFvh5kvxwR_fYWryTwMU731jyNKc9BvysBRF_zbTfV5ZCYhrskN9nBfpvQpuoYsO3O)**
 
-
 **Pros:**
-Interactive
-Contains predefined properties that can be configured
-Has better provisions for placing text/images in the middle, won’t need to place the circle and text separately
-Has animations
-Easy to make it responsive
+
+- 
+  Interactive
+
+- Contains predefined properties that can be configured
+- Has better provisions for placing text/images in the middle, won’t need to place the circle and text separately
+- Has animations
+- Easy to make it responsive
 
 **Cons:**
-Could be hard to find the correct property to configure
-If need to customize outside of the presets given, have to use ::ng-deep with the predefined class (or something else) to override the settings
+
+- Could be hard to find the correct property to configure
+
+- If need to customize outside of the presets given, have to use ::ng-deep with the predefined class (or something else) to override the settings
 
 ### Alternates
 
