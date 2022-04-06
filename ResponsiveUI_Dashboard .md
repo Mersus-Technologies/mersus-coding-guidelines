@@ -28,6 +28,7 @@ For the Avatar Academy Dashboard, the UI was made responsive using Angular flex.
 **Github link**: [GitHub - angular/flex-layout: Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API](https://github.com/angular/flex-layout)
 
 **Youtube tutorial:** 
+
 Part 1: [Create a responsive card grid in Angular with Flex Layout - Part 1](https://youtu.be/O460xQPYckE)
 
 Part 2: [Create a responsive card grid in Angular with Flex Layout - Part 2](https://youtu.be/C5ew4olWLGQ)
@@ -62,12 +63,12 @@ If needed, can specify for the particular resolution:
 For any further formatting required for an element for a particular resolution, configure a CSS class to manage that.
 
 ```
-`class="card-config" //Default class`
+class="card-config" //Default class
 
-`[ngClass.lt-lg] ="'card-column'"  //Class for less than large res`
+[ngClass.lt-lg] ="'card-column'"  //Class for less than large res
 ```
 
-As far as I’ve experienced, flex can be configured for specific components as well. The next section contains a few elements that I came across:
+As far as I’ve experienced, flex can be configured for specific components as well. The next section contains a few elements that I came across.
 
 # Angular (and otherwise) component specific
 
@@ -95,7 +96,7 @@ Can find alternatives to mat-card if required but some predefined tags in HTML w
 The flex layout worked well for me to manage grids.
 `fxLayout="row wrap"`
 
-- Row wrap turned out to be:
+Row wrap turned out to be:
 
 - Easier while dealing with responsiveness
 - Requires less manual work for handling card grids for different resolutions as it can manage cards in rows and columns better as compared to other `fxLayouts` tried.
