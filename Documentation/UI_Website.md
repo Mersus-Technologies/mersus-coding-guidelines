@@ -36,11 +36,11 @@ background: #0F2345;
 margin: 0;
 margin-right: 570px;
 }
-.fixed a {
+.fixed a{
 margin-right: 40px;
 font-family: 'Libre' 'Franklin';
 font-weight: 20;
-  }
+}
 ```
 
 ### Angular
