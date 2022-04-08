@@ -17,7 +17,7 @@ Some ways to handle responsiveness:
 - Can add a breakpoint observer: [Managing Image Breakpoints With Angular — Smashing Magazine](https://www.smashingmagazine.com/2019/02/image-breakpoints-angular/)
 - Bootstrap and Angular: [Detect Responsive Screen Sizes in Angular | DigitalOcean](https://www.digitalocean.com/community/tutorials/detect-responsive-screen-sizes-in-angular)
 
-2. Using media queries
+2. Using media queries (Used for Website)
 
 # Responsiveness using Angular Flex
 

@@ -142,34 +142,38 @@ nav .logo {
 ### CSS
 
 
-    /* Underline text for navbar */
-    .under li a{
-    text-decoration-line: underline; 
-    }
-    /* The animation Hover */
-    .links a:hover{
-    
-    animation: bounce 1s linear;
-    /* The animation Hover  */
-    
-    @keyframes bounce {
-    
-    0%,20%,60%,100%,to{  
-         transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-30px);
-    }
-    70%{
-        transform: translateY(-15px);
-    }
-    90%{
-        transform: translateY(-4px);
-    }
-    }
+```scss
+/* Underline text for navbar */
+.under li a{
+text-decoration-line: underline; 
+}
+/* The animation Hover */
+.links a:hover{
+
+animation: bounce 1s linear;
+/* The animation Hover  */
+
+@keyframes bounce {
+
+0%,20%,60%,100%,to{  
+     transform: translateY(0);
+}
+40%{
+    transform: translateY(-30px);
+}
+70%{
+    transform: translateY(-15px);
+}
+90%{
+    transform: translateY(-4px);
+}
+}
+```
 ## Hamburger menu
 
 For tablet of smaller screens, a hamburger menu was created which allowed the navbar to go in and only display when clicked.
+
+**![A blue screen with white textDescription automatically generated with low confidence](https://lh5.googleusercontent.com/x0rAmxEOBVe1ymbPqyGKkGQNehaPV-2NVwqnXlXgB-EyPOraVhz_BvyNOaVhlrzobZ-NvkEJYMQlDLvYpYd9ZLeosu5fd_CXWmpOMmkfED7EFeKTApDq0fKFb93b1CXJ5y6OuMKbqQ-x2pviy7M)**
 
 - Only visible for smaller screens
 - Hamburger menu specific code: -
@@ -202,3 +206,8 @@ display:none;
 }
 ```
 
+# Useful Links
+
+[Hover Animation](https://blog.hubspot.com/website/css-hover-animation#:~:text=A%20CSS%20hover%20animation%20occurs,to%20enhance%20your%20site's%20interactivity)
+
+[Intro to Angular](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
