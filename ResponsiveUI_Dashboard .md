@@ -62,7 +62,7 @@ If needed, can specify for the particular resolution:
 
 For any further formatting required for an element for a particular resolution, configure a CSS class to manage that.
 
-```
+```html
 class="card-config" //Default class
 
 [ngClass.lt-lg] ="'card-column'"  //Class for less than large res
