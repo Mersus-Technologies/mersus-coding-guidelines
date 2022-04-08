@@ -4,21 +4,14 @@
 >
 > Version: 0.1
 
-# Responsiveness
 
-Some ways to handle responsiveness:
-
-1. Angular Flex
-2. Using media queries - The AA website is made responsive using media queries.
 
 # Responsive Header 
 
 The responsive header for Mersus Website was made using media query because it is more suitable and user friendly.
 The current width and height was set for each device in order to have the consistency either on the phone, Tablet or desktop and other smaller devices.
 
-## What worked
-
-### Screen sizes
+## Screen sizes
 
 1. Tablet and other big devices 
 
@@ -28,9 +21,9 @@ The current width and height was set for each device in order to have the consis
 
    `@media screen and (max-width: 390px)`
 
-### Sticky Header
+## Sticky Header
 
-#### CSS
+### CSS
 
 Header was made sticky using the following CSS configuration: -
 
@@ -50,12 +43,12 @@ font-weight: 20;
   }
 ```
 
-#### Angular
+### Angular
 
 Angular classes could be manipulated based on a certain criteria. The following was placed inside navbar and was styled in a different CSS.
  `(scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'notfixed'"`
 
-#### Typescript
+### Typescript
 
 For the Typescript file, the following was implemented:
 
@@ -72,7 +65,24 @@ export class HeaderComponent implements OnInit {
 }
 ```
 
-### Navbar and logo
+### What didn't work
+
+JS
+
+```javascript
+<script type="text/javascript">
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+```
+
+## Navbar and logo
 
 In order to fit the screens and make it more user friendly, the navbar and logo sizes were reduced. 
 
@@ -118,9 +128,9 @@ nav .logo {
 }
 ```
 
-#### Hover bounce Text animation
+### Hover bounce Text animation
 
-##### HTML
+### HTML
 
 ```html
     <div class="under"><li>About</li></div>
@@ -129,12 +139,11 @@ nav .logo {
     <li><a href="#">Blog</a></li>
     <li><a href="#">Contact</a></li>
 ```
-##### CSS
+### CSS
+
 
     /* Underline text for navbar */
-    
     .under li a{
-    
     text-decoration-line: underline; 
     }
     /* The animation Hover */
@@ -158,7 +167,7 @@ nav .logo {
         transform: translateY(-4px);
     }
     }
-### Hamburger menu
+## Hamburger menu
 
 For tablet of smaller screens, a hamburger menu was created which allowed the navbar to go in and only display when clicked.
 
